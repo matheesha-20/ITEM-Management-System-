@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="398.0" prefWidth="682.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Addcontroller">
+    <children>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#03325e" height="50.0" stroke="BLACK" strokeType="INSIDE" width="682.0" />
+        <Label layoutX="274.0" layoutY="4.0" prefHeight="46.0" prefWidth="163.0" text="ADD ITEM" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="30.0" />
+            </font></Label>
+        <Label layoutX="32.0" layoutY="110.0" text="ITEM ID -">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font></Label>
+        <Label layoutX="32.0" layoutY="146.0" text="ITEM NAME -">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+        </Label>
+        <Label layoutX="32.0" layoutY="181.0" text="QUANTITY -">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+        </Label>
+        <Label layoutX="33.0" layoutY="216.0" text="PRICE -">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+        </Label>
+        <Label layoutX="34.0" layoutY="252.0" text="DESCRIPTION -">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+        </Label>
+        <Button fx:id="bthbtnaction" layoutX="484.0" layoutY="345.0" mnemonicParsing="false" onAction="#backbtn" prefHeight="31.0" prefWidth="152.0" style="-fx-background-color: #03325e;" text="Back To Home" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font></Button>
+      <Button fx:id="addbtnaction" layoutX="484.0" layoutY="304.0" mnemonicParsing="false" onAction="#addbtnaction" style="-fx-background-color: #03325e;" text="ADD" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="cancelbtnaction" layoutX="557.0" layoutY="304.0" mnemonicParsing="false" onAction="#cancbtn" style="-fx-background-color: #03325e;" text="CANCEL" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <TextField fx:id="id" layoutX="207.0" layoutY="113.0" />
+      <TextField fx:id="name" layoutX="207.0" layoutY="150.0" prefHeight="26.0" prefWidth="245.0" />
+      <TextField fx:id="quantity" layoutX="208.0" layoutY="185.0" />
+      <TextField fx:id="price" layoutX="208.0" layoutY="220.0" />
+      <TextField fx:id="dis" layoutX="208.0" layoutY="255.0" prefHeight="26.0" prefWidth="341.0" />
+    </children>
+</AnchorPane>
